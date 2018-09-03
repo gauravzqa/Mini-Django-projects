@@ -1,7 +1,7 @@
 import datetime
 
 from django.db import models
-from django.utils.encoding import *
+from django.utils.encoding import timezone
 
 # Create your models here.
 class Question(models.Model):
